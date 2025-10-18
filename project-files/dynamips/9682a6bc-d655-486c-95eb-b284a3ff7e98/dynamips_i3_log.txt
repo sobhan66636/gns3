@@ -1,0 +1,39 @@
+May 23 08:59:38.583 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 23 08:59:38.584 HYPERVISOR: Started on IP = localhost, TCP port = 13931.
+May 23 08:59:38.818 HYPERVISOR: exec_cmd: hypervisor version 
+May 23 08:59:38.819 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Sobhan\GNS3\projects\s2\project-files\dynamips 
+May 23 08:59:38.819 GENERAL: working_dir=C:\Users\Sobhan\GNS3\projects\s2\project-files\dynamips
+May 23 08:59:38.819 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Sobhan\GNS3\projects\s2\project-files\dynamips\62ef17fe-a92d-494f-9c56-124d3fc46ec0 
+May 23 08:59:38.830 GENERAL: working_dir=C:\Users\Sobhan\GNS3\projects\s2\project-files\dynamips\62ef17fe-a92d-494f-9c56-124d3fc46ec0
+May 23 08:59:38.830 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+May 23 08:59:38.833 VM: VM R1 created.
+May 23 08:59:38.833 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5002 
+May 23 08:59:38.834 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+May 23 08:59:38.834 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+May 23 08:59:38.834 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+May 23 08:59:38.834 HYPERVISOR: exec_cmd: vm get_status R1 
+May 23 08:59:38.834 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c09aa0 
+May 23 08:59:38.836 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Sobhan/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+May 23 08:59:38.837 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.29cc.0000 
+May 23 08:59:38.838 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+May 23 08:59:38.838 HYPERVISOR: exec_cmd: vm get_status R1 
+May 23 08:59:38.838 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+May 23 08:59:38.840 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5002 
+May 23 08:59:41.352 HYPERVISOR: exec_cmd: nio create_udp udp-c141b761-414a-498f-8c09-990dcb235051 10026 127.0.0.1 10027 
+May 23 08:59:41.636 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-c141b761-414a-498f-8c09-990dcb235051 
+May 23 08:59:41.636 HYPERVISOR: exec_cmd: vm get_status R1 
+May 23 08:59:42.075 HYPERVISOR: exec_cmd: nio create_udp udp-be286360-ec8e-43bb-873c-82a8dd89d57c 10042 127.0.0.1 10043 
+May 23 08:59:42.075 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-be286360-ec8e-43bb-873c-82a8dd89d57c 
+May 23 08:59:42.075 HYPERVISOR: exec_cmd: vm get_status R1 
+May 23 08:59:42.123 HYPERVISOR: exec_cmd: nio create_udp udp-129a56d8-2115-4e24-bd98-a0e933f53560 10048 127.0.0.1 10049 
+May 23 08:59:42.123 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-129a56d8-2115-4e24-bd98-a0e933f53560 
+May 23 08:59:42.123 HYPERVISOR: exec_cmd: vm get_status R1 
+May 23 09:00:02.843 HYPERVISOR: exec_cmd: vm get_status R1 
+May 23 09:00:02.846 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 23 09:00:03.280 HYPERVISOR: exec_cmd: vm get_status R1 
+May 23 09:00:03.280 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 23 09:00:03.282 HYPERVISOR: exec_cmd: vm delete R1 
+May 23 09:00:03.282 VM: VM R1 destroyed.
+May 23 09:00:03.284 HYPERVISOR: exec_cmd: hypervisor stop 
+May 23 09:00:03.608 HYPERVISOR: Stopped.
+May 23 09:00:03.608 GENERAL: reset done.
